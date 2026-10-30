@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and cite the methods papers it implements."
+title: "jitai-lab: design and analysis of micro-randomized trials for just-in-time adaptive interventions"
+authors:
+  - family-names: Maggiolo
+    given-names: Tommaso
+version: 0.1.0
+date-released: 2026-10-30
+license: MIT
+keywords:
+  - micro-randomized trial
+  - just-in-time adaptive intervention
+  - causal excursion effect
+  - mobile health
+references:
+  - type: article
+    title: "Assessing Time-Varying Causal Effect Moderation in Mobile Health"
+    authors:
+      - family-names: Boruvka
+        given-names: Audrey
+      - family-names: Almirall
+        given-names: Daniel
+      - family-names: Witkiewitz
+        given-names: Katie
+      - family-names: Murphy
+        given-names: Susan A.
+    journal: "Journal of the American Statistical Association"
+    year: 2018
+    volume: 113
+    issue: 523
+    start: 1112
+    end: 1121
+    doi: 10.1080/01621459.2017.1305274
+  - type: article
+    title: "Sample size calculations for micro-randomized trials in mHealth"
+    authors:
+      - family-names: Liao
+        given-names: Peng
+      - family-names: Klasnja
+        given-names: Predrag
+      - family-names: Tewari
+        given-names: Ambuj
+      - family-names: Murphy
+        given-names: Susan A.
+    journal: "Statistics in Medicine"
+    year: 2016
+    volume: 35
+    issue: 12
+    start: 1944
+    end: 1971
+    doi: 10.1002/sim.6847

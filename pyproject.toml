@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jitailab"
+version = "0.1.0"
+description = "Design and analyze micro-randomized trials (MRTs) for just-in-time adaptive interventions: WCLS, sample size, simulation."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Tommaso Maggiolo" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.7"]
+dev = ["pytest>=7", "statsmodels>=0.14", "matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
