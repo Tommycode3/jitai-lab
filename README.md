@@ -18,8 +18,6 @@ Pure NumPy/SciPy, single-threaded, every study runs on a laptop in minutes.
 See also [`docs/design_notes.md`](docs/design_notes.md): a cited summary of the
 published JITAI frameworks (Nahum-Shani et al. 2018; Klasnja et al. 2015).
 
-## Why I built this
-
 <!-- TODO(Tommaso): dictate 3-4 lines in your own words -->
 
 ## Install
